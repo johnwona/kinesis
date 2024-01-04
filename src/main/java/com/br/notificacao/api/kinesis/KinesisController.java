@@ -17,7 +17,7 @@ import com.br.notificacao.api.kinesis.service.KinesisProducerService;
 
 @RestController
 @RequestMapping
-public class TesteController {
+public class KinesisController {
 
 	@Autowired
 	private KinesisProducerService service;
